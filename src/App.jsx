@@ -69,8 +69,10 @@ function App() {
   });
 
   return (
-    <div className="container py-4">
-      <h1 className="text-center mb-4">User Dashboard</h1>
+    <div className="dashboard-header">
+  <h1>User Dashboard</h1>
+  <p>Manage and explore your users in one place.</p>
+
 
       {/* کادر جست‌وجو */}
       <input
